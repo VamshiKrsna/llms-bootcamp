@@ -3,10 +3,13 @@
 **Syllabus :**
 
 
-Emerging Architectures for Large Language Model Applications
+**Emerging Architectures for Large Language Model Applications**
+
+
 In this module we will understand the common use cases of large language models and fundamental building blocks of such applications. Learners will be introduced to the following topics at a very high level without going into the technical details:
 
-Large language models and foundation models
+
+**Large language models and foundation models**
 Prompts and prompt engineering
 Context window and token limits
 Embeddings and vector databases
@@ -18,7 +21,8 @@ Canonical architecture for and end-to-end LLM application
 Evolution of Embeddings - The Building Blocks of Large Language Models
 In this module, we will be reviewing how embeddings have evolved from the simplest one-hot encoding approach to more recent semantic embeddings approaches. The module will go over the following topics:
 
-Review of classical techniques
+
+**Review of classical techniques**
 Review of binary/one-hot, count-based and TF-IDF techniques for vectorization
 Capturing local context with n-grams and challenges
 Semantic Encoding Techniques
@@ -28,11 +32,14 @@ Text Embeddings
 Word and sentence embeddings
 Text similarity measures
 Dot product, Cosine similarity, Inner product
+
 Hands-on Exercise
 
 Creating a TF-IDF embeddings on a document corpus
 Calculating similarity between sentences using cosine similarity and dot product
-Attention Mechanism and Transformers
+
+
+**Attention Mechanism and Transformers**
 Dive into the world of large language models, discovering the potent mix of text embeddings, attention mechanisms, and the game-changing transformer model architecture.
 
 Attention mechanism and transformer models
@@ -45,7 +52,9 @@ Transformer models
 Hands-on Exercise
 
 Understanding attention mechanisms: Self-attention for contextual word analysis
-Efficient Storage and Retrieval of Vector Embeddings Using Vector Databases
+
+
+**Efficient Storage and Retrieval of Vector Embeddings Using Vector Databases**
 Learn about efficient vector storage and retrieval with vector database, indexing techniques, retrieval methods, and hands-on exercises.
 
 Overview
@@ -59,7 +68,9 @@ Cosine Similarity, Nearest Neighbor Search
 Hands-on Exercise
 Creating a vector store using HNSW
 Creating, storing and retrieving embeddings using cosine similarity and nearest neighbors
-Leveraging Text Embeddings for Semantic Search
+
+
+**Leveraging Text Embeddings for Semantic Search**
 Understand how semantic search overcomes the fundamental limitation in lexical search i.e. lack of semantic . Learn how to use embeddings and similarity in order to build a semantic search model.
 
 Understanding and Implementing Semantic Search
@@ -72,7 +83,9 @@ Limitations of embeddings and similarity in semantic search
 Improving semantic search beyond embeddings and similarity
 Hands-on Exercise: 
 Building a simple semantic search engine with multilingual capability
-Fundamentals of Prompt Engineering
+
+
+**Fundamentals of Prompt Engineering**
 Unleash your creativity and efficiency with prompt engineering. Seamlessly prompt models, control outputs, and generate captivating content across various domains and tasks.
 
 Prompt Design and Engineering
@@ -93,7 +106,9 @@ Generating a product pitch
 Creating a business model Canvas
 Simplifying technical concepts
 Composing an email
-Fine Tuning Foundation LLMs
+
+
+**Fine Tuning Foundation LLMs**
 In-depth discussion on fine-tuning of large language models through theory discussions, exploring rationale, limitations, and Parameter Efficient Fine Tuning.
 
 Fine Tuning Foundation LLMs
@@ -106,14 +121,18 @@ Fine tuning vs. RAG: When to use one or the other. Risks and limitations.
 Hands-on Exercise:
 In-Class: Instruction fine-tuning, deploying and evaluating a LLaMA2-7B 4-bit quantized model
 Homework: Fine-tuning and deploying OpenAI GPT model on Azure
-Orchestration Frameworks to Build Applications on Enterprise Data
+
+
+**Orchestration Frameworks to Build Applications on Enterprise Data**
 Explore the necessity of orchestration frameworks, tackling issues like foundation model retraining, token limits, data source connectivity, and boilerplate code. Discover popular frameworks, their creators, and open source availability.
 
 Why are Orchestration Frameworks Needed?
 Eliminate the need for foundation model retraining
 Overcoming token limits
 Connecters for data sources.
-LangChain for LLM Application Development
+
+
+**LangChain for LLM Application Development**
 Build LLM Apps using LangChain. Learn about LangChain's key components such as Models, Prompts, Parsers, Memory, Chains, and Question-Answering. Get hands-on evaluation experience.
 
 Introduction to LangChain
@@ -131,7 +150,9 @@ Evaluation – Evaluating outputs generated from LLM models
 Querying Tabular Data – without using any extra code
 Hands-on Exercise: 
 Using LangChain loader, splitter, retrievals on a pdf document
-Autonomous Agents: Delegating Decision Making to AI
+
+
+**Autonomous Agents: Delegating Decision Making to AI**
 Use LLMs to make decisions about what to do next. Enable these decisions with tools. In this module, we’ll talk about agents. We’ll learn what they are, how they work, and how to use them within the LangChain library to superpower our LLMs.
 
 Agents and Tools
@@ -146,7 +167,9 @@ JSON agent
 Python Pandas agent
 Document comparison agent
 Power BI agent
-LLMOps : Observability & Evaluation
+
+
+**LLMOps : Observability & Evaluation**
 LLMOps encompasses the practices, techniques and tools used for the operational management of large language models in production environments. LLMs offer tremendous business value, humans are involved in all stages of the lifecycle of an LLM from acquisition of data to interpretation of insights. In this module we will learn about the following:
 
 Principles of Responsible AI
@@ -163,7 +186,9 @@ Evaluation: Assess LLM performance using known prompts to identify issues.
 Observability: Collect telemetry data about the LLM's internal state for monitoring and issue detection.
 Hands-on Exercise:
 Using Langkit Evaluate LLM performance on specific prompts
-Evaluating Large Language Models (LLMs)
+
+
+**Evaluating Large Language Models (LLMs)**
 Dive into Large Language Model (LLM) evaluation, examining its importance, common issues, and key metrics such as BLEU and ROUGE, and apply these insights through a hands-on summarization exercise.
 
 Introduction to LLM Evaluation
@@ -179,7 +204,9 @@ Discuss role of human evaluation and techniques (Likert scale)
 Hands-on Exercise
 
 Evaluating LLMs summarization using metrics like Rouge and Bertscore
-Productionize your LLM application
+
+
+**Productionize your LLM application**
 This module covers how to scale and automate LLM applications using ZenML. ZenML streamlines data versioning, caching, deployment, and collaboration for efficient LLM app development.
 
 Key Challenges in building Enterprise-Level LLM Apps
@@ -202,11 +229,3 @@ Content Personalizer: Tailoring content specifically to your preferences and nee
 YouTube Virtual Assistant: Engage in interactive conversations with your favorite YouTube channels and playlists.
  
 
-Attendees will receive the following:
-
-Datasets consisting of large number of documents from various industries
-Detailed instructions for implementation
-Code templates in Data Science Dojo sandboxes to get you up and running quickly
-Exclusive access to powerful cloud-based resources and receive your own OpenAI key for hassle-free deployment of your functional project
-A supportive cohort and course instructors to set you up for success with personalized support, guidance, and prompt answers to your questions throughout the bootcamp.
-At the end of the bootcamp, you'll leave with a fully functional LLM application deployed in either Streamlit or Hugging Face cloud. Showcase your achievements and leverage the power of AI to transform your industry, gaining a competitive edge and staying ahead of the curve.
