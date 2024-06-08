@@ -1,6 +1,6 @@
 # llms-bootcamp
 
-**Syllabus :**
+## **Syllabus :**
 
 
 **Emerging Architectures for Large Language Model Applications**
