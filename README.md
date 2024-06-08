@@ -1,6 +1,6 @@
 # llms-bootcamp
 
-## **Syllabus :**
+## **Syllabus from datasciencedojo :**
 
 
 ### **Emerging Architectures for Large Language Model Applications**
