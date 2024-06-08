@@ -1,6 +1,8 @@
 # llms-bootcamp
 
 **Syllabus :**
+
+
 Emerging Architectures for Large Language Model Applications
 In this module we will understand the common use cases of large language models and fundamental building blocks of such applications. Learners will be introduced to the following topics at a very high level without going into the technical details:
 
